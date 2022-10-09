@@ -1,25 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
 
-html{
+html {
   scroll-behavior: smooth;
-
 }
 
-body{
-  box-sizing: border-box ;
+body {
+  box-sizing: border-box;
   background-image: url('./assets/bg-main-desktop.png');
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 60rem;
   padding: 62px 165px;
-  font-family: 'IBM Plex Sans', sans-serif;  
+  font-family: 'IBM Plex Sans', sans-serif;
   max-width: 100%;
   color: #191826;
 }
 
-
-.pattern{
+.pattern {
   width: 312px;
   height: 468px;
   background-image: url('/assets/bg-pattern-1.svg');
@@ -28,38 +26,38 @@ body{
   top: -10rem;
 }
 
-
-h1, span{
-font-weight: 700;
-font-size: 88px;
-line-height: 88px;
-letter-spacing: -1px;
+h1,
+span {
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
 }
 
-.main{
+.main {
   position: relative;
   top: -28rem;
 }
-p, .mm{
+p,
+.mm {
   font-weight: 400;
   font-size: 20px;
   line-height: 34px;
 }
 
-.rectangle{
+.rectangle {
   width: 1110px;
   height: 600px;
   background-color: #191826;
   margin-top: 21rem;
-    background-image: url('/assets/bg-pattern-2.svg');
-    background-position: top;
-    background-repeat: no-repeat;
-    display: flex;
-   
+  background-image: url('/assets/bg-pattern-2.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
 }
 
-
-.app, .imgg{
+.app,
+.imgg {
   width: 312px;
   height: 642px;
   position: relative;
@@ -67,10 +65,10 @@ p, .mm{
   left: 2rem;
 }
 
-.price{
+.price {
   width: 446px;
   height: 622px;
-  background-color: #FA7453;
+  background-color: #fa7453;
   position: relative;
   top: 8rem;
   left: 18rem;
@@ -78,150 +76,145 @@ p, .mm{
   padding: 54px;
   color: #fff;
   border-radius: 1rem;
- 
 }
 
-h2{
+h2 {
   font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-margin: 0px;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0px;
 }
 
-.mm{
+.mm {
   display: inline;
   position: relative;
- top: -1.5rem;
+  top: -1.5rem;
 }
 
-button{
+button {
   width: 333px;
   height: 61px;
   border-style: none;
   background: #191826;
- border-radius: 12px;
-margin-top: 1rem;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #fff;
-font-size: 18px;
-line-height: 32px;
+  border-radius: 12px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
 }
 
-button p{
+button p {
   margin-left: 1rem;
 }
 
-.btn2{
+.btn2 {
   background-color: #fff;
-  color:#191826;
+  color: #191826;
 }
 
-button:hover{
-background-color: #66E2DC;
+button:hover {
+  background-color: #66e2dc;
 }
 
-.btn2:hover{
-  background-color: #FFB964;
+.btn2:hover {
+  background-color: #ffb964;
 }
 
-
-footer{
+footer {
   display: flex;
   justify-content: space-between;
 }
-footer p{
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-.foot-t{
-font-weight: 700;
-font-size: 16px;
-line-height: 26px;
+.foot-t {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
 }
 
-li{
+li {
   padding-right: 1rem;
 }
 
-.sec{
+.sec {
   width: 366px;
   height: 79px;
 }
 
-footer{
-position: relative;
-top: -9rem;
-padding-bottom: 4rem;
+footer {
+  position: relative;
+  top: -9rem;
+  padding-bottom: 4rem;
 }
-
 
 /* tab */
 
-@media (max-width:820px) {
-  body{
+@media (max-width: 820px) {
+  body {
     max-width: 100%;
     padding: 39px;
   }
-  .pattern{
+  .pattern {
     left: 30rem;
     width: 266.67px;
     height: 400px;
   }
-  .rectangle{
+  .rectangle {
     width: 696px;
     height: 734px;
   }
-  .price{
+  .price {
     top: 15rem;
     left: -2rem;
-    
   }
-  .app{
+  .app {
     width: 270.21px;
     height: 556px;
     top: -4rem;
   }
-  h1{
+  h1 {
     margin-top: 10rem;
     font-size: 64px;
     line-height: 64px;
     width: 520px;
     letter-spacing: -0.727273px;
   }
-  .b-text{
+  .b-text {
     width: 512px;
   }
-  .footer{
+  .footer {
     top: -16rem;
   }
 }
 
-
 /* mobile */
-@media (max-width:480px) {
-
-  body{
+@media (max-width: 480px) {
+  body {
     background-image: url('./assets/bg-main-mobile.png');
     width: 100%;
     padding: 24px;
+    max-width: 100%;
+    overflow-x: hidden;
   }
-  .pattern{
+  .pattern {
     display: none;
   }
-  .main{
+  .main {
     top: 0rem;
   }
-  h1{
-    
+  h1 {
     width: 327px;
     height: 144px;
     font-size: 40px;
@@ -229,41 +222,43 @@ padding-bottom: 4rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
   }
-  .b-text{
+  .b-text {
     width: 327px;
   }
 
-  .rectangle{
+  .rectangle {
     width: 100%;
     flex-direction: column;
     background-position: center;
     margin-top: 17rem;
   }
-  .app{
-    left: -0.4rem;
+  .app {
+    left: -1rem;
     width: 208.97px;
     height: 430px;
   }
-  .price{
+  .price {
     width: 100%;
     left: 0rem;
     height: 690px;
-
   }
 
-  footer{
+  footer {
     top: 45rem;
     flex-direction: column;
     height: 230px;
-
   }
-  ul{
+  ul {
     padding: 0rem;
   }
-  
-  button{
+
+  button {
     width: 256px;
-height: 61px;
+    height: 61px;
   }
 
+  .sec {
+    width: 317px;
+    height: 79px;
+  }
 }
